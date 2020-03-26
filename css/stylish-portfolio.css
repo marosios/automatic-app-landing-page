@@ -11,6 +11,7 @@ html {
 }
 
 body {
+
   font-family: 'Rubik', sans-serif;
   color: #FFFFFF;
 }
@@ -401,7 +402,7 @@ a:hover, a:focus, a:active {
 }
 
 .logo {
-  height: 20vh;
+  height: 50vh;
   width: auto;
   position: absolute;
   top: 0
@@ -425,7 +426,7 @@ a:hover, a:focus, a:active {
 }
 
 .appstore {
-  bottom: 100px;
+  bottom: 40px;
   left: 0;
 }
 
@@ -508,6 +509,7 @@ header .container {
 
 #portfolio .row {
   background-color: #54BA70;
+  border-bottom: 2px solid #FFF;
 }
 
 .portfolio_text {
@@ -543,4 +545,8 @@ color: #fff;
 margin-top: 1rem;
 padding-left: 2.5em;
 padding-right: 2.5em;
+}
+
+#hidden {
+  display: none;
 }
